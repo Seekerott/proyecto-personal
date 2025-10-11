@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" href="./img/icon.jpg" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=shopping_bag" />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <title>Tay Shop</title>
+    </head>
+    <body class="h-full flex-col">
+        <div class="flex bg-orange-600 h-10 align-start gap-4">
+            <img src="./img/instagram.png" alt="instagram">
+            <img src="./img/x.png" alt="x">
+        </div>
+        <main>
+            <nav class="flex justify-between items-center p-4">
+                <div class="flex gap-4 text-xl">
+                    <a href="index.html">Home</a>
+                    <a href="prints.html">Prints</a>
+                    <a href="stickers.html">Stickers</a>
+                </div>
+                <a href="cart.html"><img src="./img/shopping_bag.png" alt="shopping bag" class="max-h-10"></a>
+            </nav>
+            <header class="flex items-center justify-center">
+                <h1 class="text-8xl">My Cart</h1>
+            </header>
+            <section class="flex-col flex-wrap">
+                <div class="flex justify-between ml-1">
+                    <p>Product</p>
+                    <div class="flex justify-between gap-20 mr-4 *:mr-2">
+                        <p>Price</p>
+                        <p>Quantity</p>
+                        <p>Total</p>
+                    </div> 
+                </div>
+                <div class="flex justify-between border-t-2 border-black">
+                    <div class="flex-col">
+                        <img src="" alt="Product">
+                        <p>Product Name</p>
+                    </div>
+                    <div class="flex justify-between gap-20 mr-4">    
+                        <p>$XX.XX</p>
+                        <div class="flex gap-4 items-center justify-center">
+                            <button>-</button>
+                            <p>1</p>
+                            <button>+</button>
+                        </div>
+                        <p>$XX.XX</p>
+                    </div>
+                </div>
+                <div class="flex justify-between border-t-2 border-black">
+                    <div class="flex-col">
+                        <img src="" alt="Product">
+                        <p>Product Name</p>
+                    </div>
+                    <div class="flex justify-between gap-20 mr-4">    
+                        <p>$XX.XX</p>
+                        <div class="flex gap-4 items-center justify-center">
+                            <button>-</button>
+                            <p>1</p>
+                            <button>+</button>
+                        </div>
+                        <p>$XX.XX</p>
+                    </div>
+                </div>
+                <div class="flex justify-between border-t-2 border-black">
+                    <div class="flex-col">
+                        <img src="" alt="Product">
+                        <p>Product Name</p>
+                    </div>
+                    <div class="flex justify-between gap-20 mr-4">    
+                        <p>$XX.XX</p>
+                        <div class="flex gap-4 items-center justify-center">
+                            <button>-</button>
+                            <p>1</p>
+                            <button>+</button>
+                        </div>
+                        <p>$XX.XX</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="bg-orange-700 flex items-center justify-center self-end">
+            <p>Some street - 1331 - NY</p>
+        </footer>
+  </body>
+</html>
