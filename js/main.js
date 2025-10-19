@@ -22,7 +22,7 @@ function calculate50OffDiscountedPrice(){
     const rest = totalAmount % 2;
     const groupsOf2 = (totalAmount - rest) / 2;
 
-    return (groupsOf2 * 20) * 1.75 + rest * 20;
+    return (groupsOf2 * 20) * 1.5 + rest * 20;
 }
 
 function calculate3x2TotalPrice(){
